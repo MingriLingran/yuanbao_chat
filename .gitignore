@@ -1,0 +1,6 @@
+
+# 测试文件
+user.json
+
+# pyc文件缓存
+__pycache__/
