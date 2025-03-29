@@ -1,6 +1,54 @@
-
+# git
+.gitignore
+.git/
+.env
 # 测试文件
 user.json
 
 # pyc文件缓存
 __pycache__/
+
+# Python相关
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.venv/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+pip-log.txt
+.coverage
+.tox/
+nosetests.xml
+.pytest_cache/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# 操作系统相关
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+*~
+
+# 日志和数据文件
+*.log
+logs/
+data/
+.cache/
