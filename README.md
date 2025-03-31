@@ -17,7 +17,13 @@
 ## 安装方法
 
 1. 克隆项目到本地
-2. 在项目根目录创建.env文件，配置cookie信息
+2. 安装依赖
+
+```powershell
+pip install 
+```
+
+3. 在项目根目录创建.env文件，配置cookie信息
 
 ```Properties
 YUANBAO_COOKIE="cookie1_here"
@@ -32,7 +38,7 @@ YUANBAO_COOKIE="cookie3_here"
 3. 运行代码：
 
 ```PowerShell
-PS: python main.py
+python main.py
 ```
 
 ## 注意事项
@@ -49,3 +55,5 @@ PS: python main.py
 回答内容:
 [AI的回答内容]
 ```
+
+PS: 40~60%内容由AI生成（自己生成自己）

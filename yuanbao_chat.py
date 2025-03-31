@@ -2,7 +2,7 @@ import requests
 import json
 from typing import Tuple, List
 
-import user_agents
+import utils.user_agents as user_agents
 
 
 def merge_thoughts(thoughts: List[str]) -> str:
