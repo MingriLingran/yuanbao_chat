@@ -1,5 +1,5 @@
 from yuanbao_chat import chat_with_yuanbao
-from cookie_manager import get_valid_cookie
+from utils.cookie_manager import get_valid_cookie
 
 if __name__ == "__main__":
     # 获取有效的cookie
